@@ -32,7 +32,7 @@ class des_soc_8ViewController: PageWithButtonsViewController {
         button_vid.addTarget(self, action: #selector(btn_vid_Pressed(_:)), for: .touchUpInside)
         button_vid.setImage(UIImage(named : icon), for: UIControlState.normal)
         imageView.addSubview(button_vid)
-        button_vid.translatesAutoresizingMaskIntoConstraints = false
+        //button_vid.translatesAutoresizingMaskIntoConstraints = false
         /*
         button_vid.layer.shadowColor = UIColor.black.cgColor
         button_vid.layer.shadowOffset = CGSize(width: 5, height: 5)
@@ -53,7 +53,7 @@ class des_soc_8ViewController: PageWithButtonsViewController {
     // PRESS FUNCTIONS
     //*****************************************
     @IBAction func btn_vid_Pressed(_ sender: UIButton) {
-        showVideoPopup(videoName: "des_social_08_vid")
+        //showVideoPopup(videoName: "des_social_08_vid")
     }
     
 }
