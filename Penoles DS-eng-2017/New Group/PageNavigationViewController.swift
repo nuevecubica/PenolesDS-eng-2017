@@ -37,12 +37,12 @@ class PageNavigationViewController: UIViewController {
     var menuConstraint: NSLayoutConstraint!
 
     var sections:[Section] = [
-        Section(name: "Inicio", pages: [
+        Section(name: "Start", pages: [
            // ImagePage(imageName: "portada"),
             CoverPage(theBg: "cover_bg", theFront: "cover_title", theTitle: "cover_front")
             ]),
         
-        Section(name: "Perfil de Peñoles", pages: [
+        Section(name: "About Peñoles", pages: [
             
             ImagePage(imageName: "perfil_pag1"),
             MapPage(),
@@ -50,11 +50,11 @@ class PageNavigationViewController: UIViewController {
             ImagePage(imageName: "perfil_pag4"),
             ]),
         
-        Section(name: "Mensaje del Director General", pages: [
+        Section(name: "Message from CEO", pages: [
             ImagePage(imageName: "mensaje_director"),
             ]),
         
-        Section(name: "Gestión de la sustentabilidad", pages: [
+        Section(name: "Sustainability Management", pages: [
             CoverPage(theBg: "gestion_bg", theFront: "gestion_front",theTitle:"gestion_title"),
             ImagePage(imageName: "gestion_pag2"),
             ImagePage(imageName: "gestion_pag3"),
@@ -64,12 +64,12 @@ class PageNavigationViewController: UIViewController {
             gestion_7Page(imageName:"gestion_pag7"),
             ]),
         
-        Section(name: "Grupos de interés", pages: [
+        Section(name: "Stakeholders", pages: [
             CoverPage(theBg: "grupos_bg", theFront: "grupos_front",theTitle:"grupos_title"),
             ImagePage(imageName: "grupos_pag2"),
             ]),
         
-        Section(name: "Transparencia y cumplimiento", pages: [
+        Section(name: "Transparency and Compliance", pages: [
             CoverPage(theBg: "transparencia_bg", theFront: "transparencia_front",theTitle:"transparencia_title"),
             ImagePage(imageName: "transparencia_pag2"),
             ImagePage(imageName: "transparencia_pag3"),
@@ -82,7 +82,7 @@ class PageNavigationViewController: UIViewController {
             ImagePage(imageName: "transparencia_pag10"),
             ]),
         
-        Section(name: "Desempeño económico", pages: [
+        Section(name: "Economic Performance", pages: [
             CoverPage(theBg: "desemp_economico_bg", theFront: "desemp_economico_front",theTitle:"desemp_economico_title"),
             ImagePage(imageName: "des_economico_pag2"),
             des_eco_3Page(imageName: "des_economico_pag3"),
@@ -97,7 +97,7 @@ class PageNavigationViewController: UIViewController {
             ImagePage(imageName: "des_economico_pag12"),
             ]),
         
-        Section(name: "Desempeño ambiental", pages: [
+        Section(name: "Environmental Performance", pages: [
             CoverPage(theBg: "desemp_ambiental_bg", theFront: "desemp_ambiental_front",theTitle:"desemp_ambiental_title"),
             des_amb_2Page(imageName: "des_ambiental_pag2"),
             ImagePage(imageName: "des_ambiental_pag3"),
@@ -110,7 +110,7 @@ class PageNavigationViewController: UIViewController {
             ImagePage(imageName: "des_ambiental_pag10"),
             ]),
         
-        Section(name: "Desempeño social", pages: [
+        Section(name: "Social Performance", pages: [
             CoverPage(theBg: "desemp_social_bg", theFront: "desemp_social_front",theTitle:"desemp_social_title"),
             des_soc_2Page(imageName:"des_social_pag2"),
             ImagePage(imageName: "des_social_pag3"),
@@ -143,19 +143,19 @@ class PageNavigationViewController: UIViewController {
             des_soc_30Page(imageName: "des_social_pag30"),
             ]),
         
-        Section(name: "Premios y distinciones", pages: [
+        Section(name: "Awards and Recognitions", pages: [
             ImagePage(imageName: "premios_pag1"),
             ]),
         
-        Section(name: "Asociaciones", pages: [
+        Section(name: "Associations", pages: [
             ImagePage(imageName: "asociaciones_pag1"),
             ]),
         
-        Section(name: "Cuarto Estado Financiero", pages: [
+        Section(name: "Fourth Financial Statement", pages: [
             ImagePage(imageName: "estado_financiero_pag1"),
             ]),
         
-        Section(name: "Acerca de este informe", pages: [
+        Section(name: "About this Report", pages: [
             ImagePage(imageName: "acerca_informe_pag1"),
             ImagePage(imageName: "acerca_informe_pag2"),
             ImagePage(imageName: "acerca_informe_pag3"),
@@ -163,7 +163,7 @@ class PageNavigationViewController: UIViewController {
             ImagePage(imageName: "acerca_informe_pag5"),
             ]),
         
-        Section(name: "Datos de contacto", pages: [
+        Section(name: "Contact Information", pages: [
             ImagePage(imageName: "contacto_pag1"),
              ImagePage(imageName: "contra_pag1"),
             ]),
