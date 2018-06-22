@@ -18,8 +18,6 @@ class ImagePage: Page {
     }
 }
 
-
-
 class PageViewController: UIViewController {
   var image: UIImage! = nil
   var scrollView: UIScrollView! = nil
